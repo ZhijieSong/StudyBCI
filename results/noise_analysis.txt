@@ -1,0 +1,9 @@
+=== A01T noise analysis (band-averaged power, uV^2/Hz) ===
+as-recorded (mastoid ref, 0.5-100Hz + 50Hz notch already on):
+  50Hz peak (49.5-50.5): 0.1303
+  local neighbours  (47-49 & 51-53 avg): 0.3555
+  50Hz prominence ratio (peak/neighbour): 0.367  (≈1 => no line-noise peak present)
+raw (mastoid ref)       : mu8-13=11.272  beta15-30=2.484  45-55=0.396  EMG55-95=0.310
+CAR                     : mu8-13=0.787  beta15-30=0.153  45-55=0.011  EMG55-95=0.019
+CAR + 50Hz notch        : mu8-13=0.787  beta15-30=0.153  45-55=0.008  EMG55-95=0.019
+CAR + bandpass 8-30Hz   : mu8-13=0.785  beta15-30=0.153  45-55=0.000  EMG55-95=0.000

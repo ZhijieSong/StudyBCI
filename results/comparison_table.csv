@@ -1,0 +1,9 @@
+config,reference,bandpass,notch,ica,ica_excluded,n_epochs,accuracy,accuracy_std,snr_db
+mastoid | wideband | no-notch | no-ICA,mastoid,wideband(1-100Hz),no,no,0,273,0.6265,0.0231,1.124
+CAR | wideband | no-notch | no-ICA,CAR,wideband(1-100Hz),no,no,0,273,0.6265,0.0431,1.299
+CAR | wideband | notch | no-ICA,CAR,wideband(1-100Hz),50Hz,no,0,273,0.6265,0.0431,1.301
+CAR | wideband | notch | ICA,CAR,wideband(1-100Hz),50Hz,yes,2,273,0.6412,0.0296,1.294
+CAR | band8-30 | no-notch | ICA   [recommended],CAR,"(8, 30)",no,yes,2,273,0.7364,0.0288,1.906
+CAR | band8-30 | no-notch | no-ICA,CAR,"(8, 30)",no,no,0,273,0.7693,0.0333,1.902
+mastoid | band8-30 | no-notch | ICA,mastoid,"(8, 30)",no,yes,3,273,0.6993,0.0453,1.763
+laplacian | band8-30 | no-notch | ICA,laplacian,"(8, 30)",no,yes,2,273,0.7253,0.0194,1.744

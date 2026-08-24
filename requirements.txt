@@ -1,0 +1,9 @@
+# Python >= 3.10
+mne>=1.6
+numpy>=1.26
+scipy>=1.14
+scikit-learn>=1.4
+pandas>=2.2
+matplotlib>=3.8
+# 运行 notebook 需要：
+jupyter>=1.0
